@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/sv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/texiew"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="==============转换操作符======================" />
+
+            <Button
+                android:id="@+id/btn_map"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="Map" />
+
+            <Button
+                android:id="@+id/btn_flatmap"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:text="Flatmap" />
+
+            <Button
+                android:id="@+id/btn_groupby"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:text="Groupby" />
+
+            <Button
+                android:id="@+id/btn_buffer"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:text="Buffer" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="==============过滤操作符======================" />
+
+            <Button
+                android:id="@+id/btn_Debounce"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="Debounce" />
+
+            <Button
+                android:id="@+id/btn_Distinct"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:text="Distinct" />
+
+            <Button
+                android:id="@+id/btn_ElementAt"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:text="ElementAt" />
+
+            <Button
+                android:id="@+id/btn_Filter"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:text="Filter" />
+
+            <Button
+                android:id="@+id/btn_First"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:text="First" />
+
+            <Button
+                android:id="@+id/btn_IgnoreElements"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:text="IgnoreElements" />
+
+            <Button
+                android:id="@+id/btn_Last"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:text="last" />
+
+            <Button
+                android:id="@+id/btn_Sample"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:text="Sample" />
+
+            <Button
+                android:id="@+id/btn_Skip"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:text="Skip" />
+
+            <Button
+                android:id="@+id/btn_Take"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:text="take" />
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="==============组合操作符======================" />
+
+
+            <Button
+                android:id="@+id/btn_Zip"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:text="zip" />
+
+            <Button
+                android:id="@+id/btn_Merge"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:text="Merge" />
+
+            <Button
+                android:id="@+id/btn_StartWith"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:text="StartWith" />
+
+            <Button
+                android:id="@+id/btn_CombineLatest"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:text="CombineLatest" />
+
+            <Button
+                android:id="@+id/btn_Join"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:text="Join" />
+            <Button
+                android:id="@+id/btn_SwitchOnNext"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:text="SwitchOnNext" />
+       <!--     <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="==============错误处理操作符======================" />
+            <Button
+                android:id="@+id/btn_Catch"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:text="Catch" />
+            <Button
+                android:id="@+id/btn_Retry"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="20dp"
+                android:text="Retry" />-->
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+
+
+    <!--<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="readbankinfo.g100.com.rxjavademo.MainActivity">
+
+
+        <Button
+            android:id="@+id/btn_map"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Map"
+             />
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:id="@+id/btn_flatmap"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="btn_flatmap"
+            />
+    </android.support.constraint.ConstraintLayout>-->
